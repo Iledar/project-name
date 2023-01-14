@@ -1,43 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  joffrey: kill;
+  cersei: kill;
+  frey: kill;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+div {
+  display: block;
+}
+div,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-	background-color: white;
-	padding: 0;
-	margin: 0;
-	font-size: 1rem;
+  background-color: white;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  position: relative;
 }
 
 h1 {
-	font-size: 3em;
-	color: white;
-	margin: 0;
-	text-align: center;
+  font-size: 3em;
+  line-height: 1.3;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.4;
+  margin: 0;
+  text-align: center;
 }
 
 .page-wrapper {
-	width: 100%;
+  width: 100%;
 }
+
 .header {
-	position: absolute;
+  position: absolute;
 }
+
 .hero {
-	min-height: 100vh;
-	background-color: #43317f;
-	display: flex;
-	position: relative;
-	align-items: center;
-	justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #43317f;
 }
+
 .section {
-	padding: 3em 3%;
-	margin: 0;
+  padding-top: 6em;
+  padding-right: 3.33%;
+  padding-bottom: 6em;
+  padding-left: 3.33%;
 }
+
 .about {
-	height: 100vh;
+  min-height: 100vh;
 }
+
 .services {
-	height: 100vh;
-	background-color: #b7ebeb;
+  min-height: 100vh;
+  background-color: #b7ebeb;
 }
+
 .container {
-	max-width: 80em;
-	margin: 0 auto;
+  width: 100%;
+  max-width: 80em;
+  margin-right: auto;
+  margin-left: auto;
 }
