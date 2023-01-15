@@ -1,37 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  joffrey: kill;
-  cersei: kill;
-  frey: kill;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
-div {
-  display: block;
-}
-div,
-span {
-  margin: 0;
-  padding: 0;
-  border: 0;
 }
 
 html {
@@ -102,7 +72,7 @@ h2 {
 
 .services {
   min-height: 100vh;
-  background-color: #b7ebeb;
+  background-color: #a48df0;
 }
 
 .container {
